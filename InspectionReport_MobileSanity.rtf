@@ -1,0 +1,320 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;\red255\green255\blue255;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c0\c87059;\cssrgb\c100000\c100000\c100000;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19900\viewh10040\viewkind0
+\deftab720
+\pard\pardeftab720\sl400\qc\partightenfactor0
+
+\f0\b\fs72 \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 Web Sanity CheckList
+\b0\fs36 \ulnone \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\b\fs48 \cf2 \ul Creating Vehicle Inspection Form Template:
+\b0\fs36 \ulnone \
+01) In Vehicles Menu of Admin, verify that there is an inspection Form button just before the Add Vehicle button.\
+02) Verify that when you hover over that button, tooltip \'93Inspection Forms\'94 is displayed.\
+03) Verify that when you click on Inspection Form\'92s button you are redirected to inspections Forms page.\
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\b\fs48 \cf2 \ul Inspection Form View Verification:
+\b0\fs36 \ulnone \
+04) Verify that by default all the forms are sorted in ascending order of the form names.\
+05) Verify that if the inspection form is searched by entering text in \'93Search Inspection Forms\'94 text-box then only closest matched inspection forms are displayed. \
+06) Verify that when you click on Options present in Action column will open dropdown menu with allowable action list.\
+Verify that all links in the dropdown menu works and no one is broken.\
+07) Verify that for the default form, delete action in dropdown list is appears in lighter blue colour.\
+08) Verify that if you try to delete Default form, a message box will appear saying \'93Default forms cannot be deleted. Please mark another form as default to delete this form.\'94 And the form will not be removed from form\'92s list.\
+09) Verify that if you delete a form which is assigned to any vehicle, then a message box will appear saying \'93<form name> is currently in use by <no of vehicles> vehicles. Deleting this form will change its inspection form to the default form. Are you sure you want to delete this form?\'94 And if the selects Yes, then verify that the form is removed from the form\'92s list And in vehicle page verify that vehicle\'92s inspection form is set to default form.\
+10) Verify that if you click on Make Default option in dropdown list, the corresponding form becomes default and Default form label appears below that form name.\
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\b\fs48 \cf2 \ul Verify Assigning Vehicle Flow: 
+\b0\fs36 \ulnone \
+11) Verify that if you click on \'93Assign to Vehicles\'94 option present in dropdown list will open a window named \'93Assign Inspection Form to Vehicle\'94 with dropdown list for selecting vehicles.\
+12) Verify that the dropdown displays all the vehicles available.\
+13) Verify that you can select multiple vehicles for same Inspection form.\
+14) Verify that when you select vehicles from the dropdown, selected vehicles appears in the vertical list with cross sign on the right end.\
+15) Verify that when you press on cross sign will remove the corresponding vehicle from the vertical list.\
+16) Verify that Save button on the button of the window is disabled or non-clickable appearing in light blue colour, and when one or more vehicle is selected, the button is clickable changing to dark blue colour.\
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\b\fs48 \cf2 \ul Edit Form Verification:
+\b0\fs36 \ulnone \
+17) Verify that when Edit Form option is clicked, Edit Inspection Form is opened, verify that all previously added vehicle parts, trailer parts and declaration statement already exist \
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 In the inspection form. Verify that you can further add more custom fields to the inspection form and set them as mandatory or not, Also verify that you can remove already added fields from the form\
+17.1) Verify that there is a square shaped button with pencil icon in it next to the Inspection form name, Verify that pressing that button will open a pop-up window prompting for name, verify that if you re-enter the name and press Save will update the name on Edit Inspection Form, if you click on cancel will not update the name.`\
+17.1) Verify that if you add custom fields but you do not give them name and click on 
+\b Save
+\b0  will red highlight the custom field and an error \'93Field title is required\'94 label will appear below the field.\
+17.1) Verify that you can add more vehicle parts by clicking \'93
+\b Add vehicle part
+\b0 \'94 and giving name to it. Also verify that you can delete already existing vehicle parts by pressing a cross icon next to them.\
+17.2) Verify that if you click on Trailer parts tab then all the trailer parts will be displayed. (Verify that all parts displayed by comparing it with admin console)\
+17.3) Verify that you can add more trailer parts by clicking \'93
+\b Add trailer part
+\b0 \'94 and giving name to it. Also verify that you can delete already existing trailer parts by pressing a cross icon next to them.\
+17.4) Verify that if you click on 
+\b Add vehicle part
+\b0  button or 
+\b Add trailer part
+\b0  button, your mouse pointer is moved to part name field pointing for name. If you press 
+\b Save
+\b0  without providing new part name will display error label \'93Part name is required\'94.\
+17.4) Verify that you can set it mandatory to tell Defect type by checking the \'93
+\f1 \cf3 \cb4 Require drivers to mark defects as major or minor
+\f0 \cf2 \cb1 \'94 check-box.\
+17.5) Verify that you can edit the already added signature declaration.\
+17.6) Verify that if there are no Form and Manner errors and you press Save will update the Inspection Form. And if there are Form and Manner errors then a message \'93Please correct the errors on the highlighted fields to Save\'94 will be displayed.\
+\
+\pard\pardeftab720\sl400\partightenfactor0
+
+\b\fs48 \cf2 \ul Create Inspection Form View: 
+\b0\fs36 \ulnone \
+18) Verify that by clicking on Create Inspection Form button will open a window \'93Create Inspection Form\'94 for entering Inspection Form Name and for selecting Inspection form template.\
+19) Verify that if the user leaves the form name empty, will highlight the text-box in red colour and displays a label \'93Form name is required\'94 just below the text-box.\
+20) Verify that in \'93Create Inspection Form\'94 window by default \'93USA Inspection Form - FMCSA Part 396\'94 ready-made inspection form is selected in dropdown list.\
+21) Verify that dropdown list has three options: USA Inspection Form - FMCSA Part 396, Canada Inspection Form - Schedule 1, and Blank Inspection Form.\
+22) Verify that if ready-made US or Canadian form template is selected from the dropdown list, the form fields are pre-populated.\
+23) Verify that if blank Inspection form template is selected from the dropdown list, form fields, vehicle Parts, Trailer Parts and declaration for driver signature appears empty.\
+24) Verify that parts of the trailer are displayed in list by clicking \'93Trailer Part\'94. And parts of the vehicle are displayed when \'93Vehicle Parts\'94 is clicked.\
+25) Verify that ready-made US template and ready-made Canada template displays only those vehicle and trailer parts that are mentioned by admin respectively.\
+26) Verify that in ready-made US template and ready-made Canada template, checkboxes for time and carrier are pre-checked (depends on settings set by admin console.)\
+27) Verify there is a pencil icon squared button next to the form name, hovering over that button displays tooltip \'93Rename Inspection Form\'94.\
+28) Verify clicking on \'93Rename Inspection Form\'94 button opens a window for Re-entering of form name.\
+29) Verify that if form name is changed then new name appears on Create Inspection form page and on Inspection Form List page.\
+30) Verify that just below all the form fields, there is a link \'93Add custom text field\'94, verify that by clicking this will allow you to enter extra field for form.\
+31) Verify that this link \'93Add custom text field\'94 has question mark icon next to it, hovering over it will display tooltip help for this link.\
+32) Verify that every custom text field that is added to form has cross icon on the right end, verify that by clicking that icon will remove that field from inspection Form.\
+33) Verify that Vehicle Parts list has \'93Add vehicle part\'94 link, clicking on it will allow you to enter a new part name and description.\
+34) Verify that newly entered vehicle and trailer parts get added to the list.\
+35) Verify that every vehicle or trailer part shown in the list has cross icon on right end of the card, clicking on that icon will delete that part from the list.\
+36) Verify that if you left vehicle part name field or trailer part name field empty, it will highlight the text-box in red colour. Displays a label \'93Part name is required\'94 in red colour.\
+37) Verify that if you try to save inspection form leaving part name or trailer name empty will display msg \'93Please correct the errors on highlighted fields to save\'94.\
+38) Verify that if the declaration for the driver signature is left empty and we try to save the inspection form then it will red highlight the declaration field and an error message \'93Declaration is required\'94 is shown below the declaration field, also verify when all the fields are filled in the Inspection form and save button is pressed, then inspection form is added to the inspection form list.\
+\pard\pardeftab720\sl280\partightenfactor0
+\cf2 \
+\pard\pardeftab720\sl400\partightenfactor0
+
+\b\fs48 \cf2 \ul View Vehicle Inspection Reports:
+\b0\fs36 \ulnone \
+39) Verify that by default inspection reports are shown in ascending order of there data / Time.\
+40) Verify that user can sort inspection reports in ascending and descending order of there Date \\ Time and Driver name by clicking on Date / Time label or Driver label respectively.\
+41) Verify that there is an arrow icon positioned next to the Date / Time label or Driver label (Depends which label is used for sorting Inspection Reports). Also verify that when arrow is angled downward Inspection reports are in descending order and when it is angled upward Inspection reports are in ascending order.\
+42) Verify that when user clicks on \
+42) Verify that if user searches reports by providing date range, then reports created on that date are shown only.\
+43) Verify that if user clicks on any inspection report, then he is redirected to detail page of inspection report.\
+44) Verify that if user clicks on Driver name then he is redirected to driver\'92s profile page, Verify that he is redirected to the correct profile.\
+44) Verify that if user clicks on Vehicle name then he is redirected to vehicle\'92s profile page, Verify that he is redirected to the correct profile.\
+45) Verify that general card has all the custom fields defined for this inspection form template.\
+46) Verify that all the description in form fields (Driver,Location,Vehicle,Carrier and custom field), in defect card the vehicle name, defect name, type, description and picture, driver signature and mechanic signature is same as given during creating inspection from mobile application. (Verify this by comparing it with mobile application log\'92s inspections)\
+47) Verify that defects are sorted by the Defect Type i.e. Major and Minor and then by the position of the defect.\
+48) Verify that for every defect, defect type appears on the right of the defect name. If the defect is major defect type appears in red coloured rectangle and if defect is minor defect type appears in white coloured rectangle. Verify that if no defect type was chosen during inspection then no defect type will appear.\
+49) Verify that correct status \
+49) Verify that there is a download button on the right side of the Date \\ Time of inspection report, verify that by pressing Download button will start downloading this report.\
+50) Verify that there is a \'93Notes\'94 button next to Download button, verify that by pressing \'93Notes\'94 button will open a window with Text-Area for entering note related to this report. Verify that the save button is disabled or un-clickable if the Text-Area is left empty and becomes enable if there is some text (note) in the Text-Area. Verify that if you press cross icon which is on the top right corner will not save or attach note text with the inspection report.\
+51) Verify that on the right side of Notes button there is a counter label showing current inspection # from total inspection #. Also verify that there are two buttons on the top right corner and next to inspection counter label having left arrow and right arrow respectively. Verify that by pressing left arrow button will redirect to previous inspection report and by pressing right arrow button will redirect to next inspection report. Also verify that if the current inspection report is first one, then left arrow button is disabled and if it is last then right arrow button is disabled.\
+52) Verify that if Inspection report contains no defects then \'93No defects found\'94 appears under the Defects card. And \'93Vehicle Condition Satisfactory\'94 appears under the Driver Signature card in green colour with a tick icon on the left. And there is no Repair Status and mechanic signature card in this case.\
+53) Verify that if the inspection report contains defects then it should contain Repair status and Mechanic Signature card, Verify that the repair status can contain Defects Status Unknown, Defects Corrected, Defects Need Not To Be Corrected. Also verify that correct Repair Status is shown by comparing it with mobile log Inspections. If the Repair Status is Defect Status Unknown then its label appears in red colour with red highlighted background and with warning sign on the left. Verify that if the Repair Status is Defects Corrected or Defects Need Not To Be Corrected then its label appears in green colour with green highlighted background and Tick icon on the left.\
+54) Verify that for the inspection reports that contains defects but do not contain mechanic signature has \'93Add Mechanic Signature\'94 link in the middle of the Mechanic Signature Card. Verify that clicking on that link will open a \'93Mechanic Signature\'94 window. Verify this window has option for declaring Defects as Defects Corrected or Defects Need Not To Be Corrected, area for mechanic signature and for selecting date. Verify that there is a button \'93Clear Signature\'94 on down left on this window which is disabled if no signature is drawn and becomes enable if it contains any signature. Verify that by pressing \'93Clear Signature\'94 button signature will be removed.\
+55) Verify that the text-box for date has a calendar icon on the extreme right, if you click on date text-box will open a calendar for selecting date. Also verify when date is selected from calendar then correct date appears in the date text-box.\
+56) Verify that if you press Cancel button present on the Mechanic Signature window will not update any data in the Inspection report. Also verify if you press \'93Save\'94 button present on the Mechanic Signature window will update the defect status, signature and date.\
+57) Verify that if the inspection report has mechanic signature signed contains \'93Edit Mechanic Signature\'94 link in the Mechanic Signature Card. Also verify that by clicking on Edit Mechanic Signature Link will open a \'93Mechanic Signature\'94 window. Verify that all the changes you make are successfully saved to the inspection report.\
+\
+\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\b\fs72 \cf0 \kerning1\expnd0\expndtw0 \ul \ulc0 Mobile Sanity CheckList:
+\fs36 \ulnone \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+
+\b0 1) Verify that in the Logs menu of \'93Electronic logbook\'94 application every record in the log shows either the no of defects as 
+\b <no of defects> Defects 
+\b0 or 
+\b No inspections
+\b0  label if no inspection is done or 
+\b No Defects
+\b0  label if the inspections has no defect.\
+2) Verify that when you click on any record then the application is navigated to the detailed view of that record. Also verify that there is an \'93Inspection\'94 tab on the top right corner of the view. Verify that previously it was named as \'93DVIR\'94 tab and now it is renamed as \'93Inspection\'94 tab.\
+3) Verify that clicking on that \'93Inspection\'94 tab will navigate the application to the Inspection view, verify that this inspection view contains a list of Inspections sorted in ascending order of the time when they were created. Verify that each inspection in this inspection list consists of time, location (if no location is added during inspection then 
+\b No Location 
+\b0 should appear), vehicle card containing information of vehicle no, defects, defect type, defect description, defect pictures, vehicle condition status and driver signature information. Also verify that defects are sorted in such a way that major defects appear up the order then minor defects. Verify that if the inspection contains no defects then \'93
+\b No Defects Found
+\b0 \'94 label appears in the vehicle card. Verify that below the vehicle card, defect status or vehicle condition status is shown. Verify that if the status is 
+\b Defect Status Unknown 
+\b0 it should appear in red highlighted background. If status is 
+\b Vehicle condition Satisfactory, Defects Corrected or  Defects not need to be corrected 
+\b0 then it should appear in green highlighted background.\
+4) Verify that each Inspection in \'93Inspection\'94 tab has Edit and Delete link on the top right corner, verify that these links are not broken and takes you to the correct view.\
+5) Verify that if there are no Inspections on \'93Inspection\'94 tab will display text \'93No Vehicle Inspection Reports for <date e.g. Jun 06>\'94.\
+\
+
+\b\fs48 \ul Creating new Inspection:
+\b0\fs36 \ulnone \
+6) Verify that there is a blue coloured Fab button on the bottom right corner in the inspection tab. \
+7) Verify that when the Fab button is pressed application is navigated to \'93Enter Vehicle\'94 view.\
+8)Verify that this \'93Enter Vehicle\'94 view has a text box for entering vehicle ID, a cancel link on top left corner and Next link on top right corner. Verify that when you click on this text-box all recently added vehicle ids appears in the dropdown list. Also verify that if you enter more then one vehicle ID it will be considered as an error and the entered vehicle Ids and \'93ENTER VEHICLE ID\'94 label will turn into red. This should also be verified that if the application (
+\b KeepTruckin Electronic Logbook
+\b0 ) is connected to an ELD then vehicle ID will be automatically identified and filled in the vehicle ID Text-box. So in this case verify that correct vehicle ID is added in vehicle Id Text-box.\
+9) Verify that if you enter more than one vehicle Id and press next will display an error message \'93Enter only one vehicle ID to create an inspection\'94 with red background.\
+10) Verify that if you enter one vehicle Id and press next will navigate application to \'93New Inspection\'94 view. Verify that \'93New Inspection\'94 view has Cancel link on the top left corner and Save link on top right corner. Also verify that \'93New Inspection\'94 view has three tabs 
+\b General, Defects, Sign
+\b0 .\
+11) Verify that correct inspection form is displayed to the driver (depends on the vehicle selection).\
+12) Verify that by default user lies on General tab when he navigates to \'93New Inspection\'94 view. \
+13) Verify that the General tab has all the form field including default and custom that were defined during form making. Also verify that all the form fields that were set mandatory appears red highlighted if they are empty and a red error mark appears next to the General label. Also verify that once these mandatory fields are filled with some text the red highlighted colour from the field and red error mark is removed.\
+14) Verify that Time field has small \'91\'92clock icon\'92\'92 on right end, verify that if you click on that icon will open time picker where you can select any time, also verify that if you press on Cancel the selected time is not updated in the field and if you press on done the time will be updated in the time field.\
+15) Verify that Location field has small \'93Current Location icon\'94 on right end, verify that if you click on that icon will open a sub-view with moving \'93animated current location icon\'94 and label \'93Determining your Location\'94 and a cancel button. Verify that this sub-view is auto closing and it should close after 2 to 3 seconds. Verify that when this sub-view is closed current location is updated in location field. Also verify that if you press cancel button on sub-view will close the sub-view without updating the location.\
+16) Verify that Inspection Type field has dropdown list containing values 
+\b None, Pre-Trip, Post-Trip.
+\b0 \
+17) Verify that there is a red error mark next to the Sign tab label which is same that also appears next to General tab label.\
+18) Verify that if the user is on Defects Tab or Sign Tab and without filling mandatory fields in the general tab will navigate him to the general tab with error message \'93Enter <Field name> to continue\'94.\
+19) Verify that if the user presses on the Defects tab then he is navigated to Defects view, verify that defects view has separate Vehicle and Trailers cards. Verify that vehicle card has vehicle no# next to vehicle label, verify that this vehicle no is correct. And \'93No Defects Found\'94 label in the middle of the vehicle card if no defect is added. Also verify that there is a \'93Add/Remove Vehicle Defects\'94 button in the vehicle card and \'93Add/Remove Trailer Defects\'94 button in the Trailer card.\
+\
+
+\b\fs48 \ul ADD/Remove Vehicle Defects:
+\b0\fs36 \ulnone \
+20) Verify that pressing on \'93Add/Remove Vehicle Defects\'94 button will navigate the application to the \'93Vehicle Defects\'94 view, verify that it has a vertical list of all the defects that were added to this inspection form during creation. (This can be verified by comparing defects present in the application\'92s inspection defect list with the fleet manage\'92r inspection form defect list).\
+21) Verify that each defect in the vehicle defect list has a checkbox on the extreme left and a circular info icon on extreme right, also verify that by clicking on this icon will open a sub-view \'93Inspection Instructions\'94 which contains the instructions about how to inspect the defect and beneath there is a \'93Done\'94 button which will close this sub-view.\
+22) Verify that when any defect is selected from the list it expands and there is an option to select Defect type, add a note and a picture. Verify that if Defect Type is mandatory then pressing done or proceeding without selecting defect type will highlight Defect Type form field in red colour and an error message \'93Select defect type to continue\'94 will appear on screen.\
+23) Verify that by pressing \'93Add Photo\'94 link will open a sub-view which will ask for permission for taking photo and recording videos, verify if you press Deny button will not open your camera for taking photo and pressing OK will navigate you and will open camera for taking photo, Also verify that once the photo is captured it is attached to the defect under Notes field, also verify that only one photo can be attached per defect. Verify every attached photo has \'93Remove Photo\'94 link next to it. Also verify that by pressing that link will remove that corresponding photo.\
+24) Verify that if you uncheck any defect from the vehicle defects list will shrink that defect and its visible options become invisible. But your entered data will remain there and will not wash out, you can verify this by rechecking the checkbox.\
+25) Verify that you can checkin or select multiple defects from the vehicle defects list.\
+26) Verify that after selecting defects in \'93Vehicle Defects\'94 page if you press Done button it will navigate you back to Defects Tab of New Inspection view, here you should verify that vehicle card should get updated and it should display same defects and related information (type, description, photo) that you selected and entered on Vehicle Defects view. Verify that defects are sorted in such a way that major defects appear up the order and then minor defects.\
+27) Verify that if some defects already exists in inspection form and user presses \'93Add/Remove Vehicle Defects\'94 then the application should be navigated to the vehicle Defects view with previously selected defects already checked. Also verify that you can add more defects or remove already selected defects by clicking on defects name, Verify you can change defect type, notes, add or remove photos. Also verify that your changes are successful by comparing the changes done in Vehicle Defects view with the changes in vehicle card in New Inspection view. Verify that if you press Done button present on the top right corner will update vehicle defects and if you press cancel button present on the top left corner will not save or update any defects.\
+\
+
+\b\fs48 \ul ADD/Remove Trailer Defects:
+\b0\fs36 \ulnone \
+20) Verify that pressing on \'93Add/Remove Trailer Defects\'94 button will navigate the application to the \'93Trailer Defects\'94 view, verify that it has a vertical list of all the defects that were added to this inspection form during creation. (This can be verified by comparing defects present in the application\'92s inspection defect list with the fleet manage\'92r inspection form defect list).\
+21) Verify that each defect in the trailer defect list has a checkbox on the extreme left and a circular info icon on extreme right, also verify that by clicking on this icon will open a sub-view \'93Inspection Instructions\'94 which contains the instructions about how to inspect the defect and beneath there is a \'93Done\'94 button which will close this sub-view.\
+22) Verify that when any defect is selected from the list it expands and there is an option to select Defect type, add a note and a picture. Verify that if Defect Type is mandatory then pressing done or proceeding without selecting defect type will highlight Defect Type form field in red colour and an error message \'93Select defect type to continue\'94 will appear on screen.\
+23) Verify that by pressing \'93Add Photo\'94 link will open a sub-view which will ask for permission for taking photo and recording videos, verify if you press Deny button will not open your camera for taking photo and pressing OK will navigate you to camera for taking photo, Also verify that once the photo is captured it is attached to the defect under Notes field, also verify that only one photo can be attached per defect. Verify every attached photo has \'93Remove Photo\'94 link next to it. Also verify that by pressing that link will remove that corresponding photo.\
+24) Verify that if you uncheck any defect from the Trailer defects list will shrink that defect and its visible options become invisible. But your entered data will remain there and will not wash out, you can verify this by rechecking the checkbox.\
+25) Verify that you can checkin or select multiple defects from the trailer defects list.\
+26) Verify that after selecting defects in \'93Trailer Defects\'94 page if you press Done button it will navigate you back to Defects Tab of New Inspection view, here you should verify that trailer card should get updated and it should display same defects and related information (type, description, photo) that you selected and entered on Trailer Defects view. Verify that defects are sorted in such a way that major defects appear up the order and then minor defects.\
+27) Verify that if some defects already exists in inspection form and user presses \'93Add/Remove Trailer Defects\'94 then the application should be navigated to the Trailer Defects view with previously selected defects already checked. Also verify that you can add more defects or remove already selected defects by clicking on defects name, Verify you can change defect type, notes, add or remove photos. Also verify that your changes are successful by comparing the changes done in Trailer Defects view with the changes in vehicle card in New Inspection view. Verify that if you press Done button present on the top right corner will update Trailer defects and if you press cancel button present on the top left corner will not save or update any defects.\
+\
+28) Verify that there is text-box for entering vehicle trailer no#, also verify that saving inspection without trailer no# will give error by red highlighting the vehicle trailer no# field and displaying message \'93Enter trailer number to continue.\'94 With red highlighted background and a red error mark appears next to the Defects tab label. Also verify that when the trailer no is added, the red error mark will disappear.\
+\
+
+\b\fs48 \ul Sign Inspection Report:
+\b0\fs36 \ulnone \
+29) Verify that if the inspection contains defects related to vehicle or trailer then the Sign tab should have check-boxes for marking defects as corrected or need not to be corrected, Driver Signature card having \'93
+\b Sign Inspection Report
+\b0 \'94 button in the middle of the card and Mechanic Signature Card having \'93
+\b Sign Inspection Report
+\b0 \'94 button in the middle of the card.\
+30) Verify that if the inspection report does not contain any defects then \'93
+\b Vehicle Condition Satisfactory
+\b0 \'94 label appears instead of check-boxes which are used for marking defects as corrected or need not to be corrected. Also verify that there is Driver signature card with \'93
+\b Sign Inspection Report
+\b0 \'94 button but there is no Mechanic Signature Card.\
+31) Also verify that weather an inspection contains defects or not Driver Signature is mandatory, so verify that \'93
+\b Sign Inspection Report
+\b0 \'94 button in Driver Signature is red highlighted and there is red error mark next to Sign tab label until driver enters his signature, Also verify if you press save button without entering driver signature will give error message \'93Enter Driver Signature to Continue\'94. \
+32) Verify that in Sign tab if you press \'93
+\b Sign Inspection Report
+\b0 \'94 button present in 
+\b Driver Signature
+\b0  card will navigate you to a 
+\b Sign Inspection view, 
+\b0 verify that in this view you have a same driver signature declaration (that was entered by fleet manager during inspection form making), an area (named as Draw signature here) for drawing your signature and a \'93
+\b Clear signature
+\b0 \'94 label. Also verify that \'93
+\b Clear signature
+\b0 \'94 label is disabled if the user have not entered any signature yet, and it becomes enable as soon as signature is entered. Verify that after entering signature if you press done button will save and add this signature to the inspection report and pressing cancel will discard the entered signature, in both cases application will be navigated to the 
+\b sign tab
+\b0  of 
+\b New Inspection 
+\b0 view with driver Signature card updated.\
+33) Verify that in Sign tab if you press \'93Sign Inspection Report\'94 button present in 
+\b Mechanic Signature
+\b0  card will navigate you to a 
+\b Sign Inspection view, 
+\b0 verify that in this view you have a same mechanic signature declaration (that was entered by fleet manager during inspection form making), an area (named as Draw signature here) for drawing your signature and a \'93Clear signature\'94 label. Also verify that \'93Clear signature\'94 label is disabled if the user have not entered any signature yet, and it becomes enable as soon as signature is entered. Verify that after entering signature if you press done button will save and add this signature to the inspection report and pressing cancel will discard the entered signature, in both cases application will be navigated to the 
+\b sign tab
+\b0  of 
+\b New Inspection 
+\b0 view with Mechanic Signature card updated.\
+34) Verify that if there are no Form and Manner errors then there will be no red error marks next to 
+\b General, Defect or Sign 
+\b0 labels and pressing 
+\b save 
+\b0 button which is on the top right corner will save the inspection report (this can be verified by seeing the inspection list of the log or from the Inspection report page of Dashboard). Also verify that if Cancel button is pressed during inspection creation then the will not be saved. In both cases user is navigated to the inspection tab of the log.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs29\fsmilli14667 \cf2 \expnd0\expndtw0\kerning0
+\
+
+\b\fs48 \ul Deleting An Inspection Report:\
+
+\b0\fs36 \ulnone 35) Verify that every inspection report in the log has 
+\b Delete 
+\b0 label next to edit label, verify that this link works and when pressed it opens a sub-view with message \'93Are you sure you want to delete this inspection?\'94, Also verify that if 
+\b Yes
+\b0  button is pressed then inspection is removed from the log\'92s inspection list. And pressing 
+\b No 
+\b0 button will not remove the inspection report.\
+
+\b\fs48 \ul \
+Editing An Inspection Report:\
+
+\b0\fs36 \ulnone 36) Verify that if you press on 
+\b Edit
+\b0  label of the inspection report then you will be redirected to the \'93
+\b Edit Inspection
+\b0 \'94 view, verify that it contains the exact same data in all the fields that was entered inspection creation (this can be verified by comparing form field\'92s data with the data in the inspection report menu of web dashboard).\
+37) Verify that the user can re-edit all the allowable form fields including Time, Carrier, custom fields etc.\
+38) Verify that if the user presses Add/Remove Vehicle Defects button then he is navigated to \'93Vehicle Defects\'94 view, verify that \'93Vehicle Defects\'94 view lists all the defects with previously selected defects already checked, verify that you can add more or remove defects from this inspection report.\
+39) Verify that if the user presses Add/Remove Trailer Defects button then he is navigated to \'93Trailer Defects\'94 view, verify that \'93Trailer Defects\'94 view lists all the defects with previously selected defects already checked, verify that you can add more or remove defects from this inspection report.\
+40) Verify that you can edit or change defect type, description, photo. Also verify that it is updated in the inspection report by comparing it with dashboard inspection report.\
+41) Verify that the sign tab, should have driver and mechanic signature if it was previously added, also verify that Driver Signature and Mechanic Signature should have 
+\b Clear Driver Signature 
+\b0 button and 
+\b Clear Mechanic Signature 
+\b0 button respectively. Verify that pressing respective button will remove respective signature.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 42) Verify that in Sign tab if you press \'93Sign Inspection Report\'94 button present in 
+\b Driver Signature
+\b0  card will navigate you to a 
+\b Sign Inspection view, 
+\b0 verify that in this view you have a same driver signature declaration (that was entered by fleet manager during inspection form making), an area (named as Draw signature here) for drawing your signature and a \'93Clear signature\'94 label. Also verify that \'93Clear signature\'94 label is disabled if the user have not entered any signature yet, and it becomes enable as soon as signature is entered. Verify that after entering signature if you press done button will save and add this signature to the inspection report and pressing cancel will discard the entered signature, in both cases application will be navigated to the 
+\b sign tab
+\b0  of 
+\b New Inspection 
+\b0 view with driver Signature card updated.\
+43) Verify that in Sign tab if you press \'93Sign Inspection Report\'94 button present in 
+\b Mechanic Signature
+\b0  card will navigate you to a 
+\b Sign Inspection view, 
+\b0 verify that in this view you have a same mechanic signature declaration (that was entered by fleet manager during inspection form making), an area (named as Draw signature here) for drawing your signature and a \'93Clear signature\'94 label. Also verify that \'93Clear signature\'94 label is disabled if the user have not entered any signature yet, and it becomes enable as soon as signature is entered. Verify that after entering signature if you press done button will save and add this signature to the inspection report and pressing cancel will discard the entered signature, in both cases application will be navigated to the 
+\b sign tab
+\b0  of 
+\b New Inspection 
+\b0 view with Mechanic Signature card updated.\cf2 \expnd0\expndtw0\kerning0
+\
+44) Verify that you can update the status of the defects by marking them as \'93Defects Corrected\'94 or \'93Defects need not to be corrected\'94.\
+45) Verify that when you press 
+\b Save
+\b0  button then all the changes are saved. (This can be verified by comparing it with the Inspection report in the dashboard).\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\fs29\fsmilli14667 \cf2 \
+}
